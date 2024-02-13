@@ -1,0 +1,5 @@
+net stop Service1
+sc delete Service1
+InstallUtil D:\Gurusoft\Server\WCF\WindowsService1.exe
+net start Service1
+pause
